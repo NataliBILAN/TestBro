@@ -1,0 +1,34 @@
+.footer{
+   
+  padding: 75px 15px 125px;
+}
+.container{
+    width: 1170px;
+    display: flex;
+   margin: 0 auto;
+}
+
+.contact-wrap{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact p{
+    font-size: 14px;
+    color: #969aa8; 
+}
+h3{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.links{
+    margin-right: 80px;
+}
+.logo{
+    display: block;
+}
+.subscribe_wrap{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
