@@ -12,6 +12,7 @@ import UserCounter from '../UserCounter';
 import ClientsCounter from '../ClientsCounter';
 import Subscribe from '../Subscribe';
 import styles from './Footer.module.css';
+import Up from '../Up';
 
 export default class Footer extends Component {
   state = {};
@@ -38,6 +39,7 @@ export default class Footer extends Component {
             <Subscribe />
           </div>
         </div>
+        <Up />
       </div>);
   }
 }
