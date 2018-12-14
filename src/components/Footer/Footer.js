@@ -31,8 +31,10 @@ export default class Footer extends Component {
           <Links allLinks={links} />
           <Blog blogArticles={blogArticles} />
           <div className={styles.subscribe_wrap}>
-            <UserCounter users="7653" />
-            <ClientsCounter clients="1340" />
+            <div className={styles.counter_wrap}>
+              <UserCounter users="7,653" />
+              <ClientsCounter clients="1,340" />
+            </div>
             <Subscribe />
           </div>
         </div>

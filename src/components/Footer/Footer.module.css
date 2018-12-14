@@ -1,34 +1,122 @@
+
 .footer{
-   
-  padding: 75px 15px 125px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 75px 15px 125px;
 }
 .container{
     width: 1170px;
     display: flex;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 
-.contact-wrap{
+.contact_wrap{
     display: flex;
     flex-direction: column;
-    
+    width: 16%;
+    margin-right: 80px;    
 }
-.contact p{
+.slogan, .contacts_detail, .contacts_mail, .list_link, .article{
     font-size: 14px;
     color: #969aa8; 
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0;
 }
-h3{
+.contacts_mail{
+    text-decoration: none;
+}
+.slogan{
+    margin-bottom: 30px;
+}
+.title{
+    color: #eeeeee;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list_link, .article{
+    text-decoration: none;
+}
+.list_item{
+    border-bottom: 1px dashed #4a4c52;
+    padding-bottom: 10px;
+}
+.list_item:first-child{
+    margin-bottom: 20px;
+}
+
+.logo_img{
+    display: block;
+}
+.logo_wrap{
+    margin-bottom: 30px;
 }
 .links{
-    margin-right: 80px;
+    margin-right: 100px;
 }
-.logo{
-    display: block;
+.blog{
+    width: 17%;
+    margin-right: 50px;
+}
+.article{
+    font-weight: 700;
+}
+.article_date{
+    font-style: italic;
+    font-size: 12px;
+    color: #6b6e77;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0;
 }
 .subscribe_wrap{
     display: flex;
     flex-direction: column;
     font-size: 14px;
+}
+.counter_wrap{
+    display: flex;
+    margin-bottom: 45px;
+}
+.counter:first-child{
+    margin-right: 40px;
+}
+.amount{
+    font-size: 25px;
+    font-weight: 600;
+    color: #969aa8; 
+    margin: 0 0 20px;
+}
+.desc{
+    font-weight: 600;
+    font-size: 14px;
+    color: #969aa8;
+    text-transform: uppercase;
+}
+.button{
+    background-color: #3ab6e6;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    outline: transparent;
+    cursor: pointer;
+}
+.input{
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #3b404f;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    outline: transparent;
 }

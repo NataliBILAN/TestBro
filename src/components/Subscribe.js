@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from './Footer/Footer.module.css';
 export default class Subscribe extends Component {
     state = {
         email: '',
@@ -18,7 +19,7 @@ export default class Subscribe extends Component {
         const { email } = this.state;
         return (
             <div>
-                <h3>Подписаться на рассылку</h3>
+                <h3 className={styles.title}>Подписаться на рассылку</h3>
 
                 <form>
                     <input
@@ -27,8 +28,9 @@ export default class Subscribe extends Component {
                         value={email}
                         placeholder="Ваш Е-mail"
                         onChange={this.handleInputChange}
+                        className={styles.input}
                     />
-                    <button type="submit">Sign in</button>
+                    <input type="submit" title=" " value=" " className={styles.button} />
                 </form>
             </div>
         )
